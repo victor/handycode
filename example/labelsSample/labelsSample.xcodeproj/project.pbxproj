@@ -16,6 +16,7 @@
 		157D9C3D153B666E0083433D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 157D9C3C153B666E0083433D /* MainViewController.m */; };
 		157D9C40153B666E0083433D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 157D9C3E153B666E0083433D /* MainViewController.xib */; };
 		157D9C48153BEE9C0083433D /* VJPaddedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 157D9C47153BEE9C0083433D /* VJPaddedLabel.m */; };
+		158AC591153C5C6D00964D4C /* COPYRIGHT in Resources */ = {isa = PBXBuildFile; fileRef = 158AC590153C5C6D00964D4C /* COPYRIGHT */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		157D9C3F153B666E0083433D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
 		157D9C46153BEE9C0083433D /* VJPaddedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VJPaddedLabel.h; path = ../../src/VJPaddedLabel.h; sourceTree = "<group>"; };
 		157D9C47153BEE9C0083433D /* VJPaddedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VJPaddedLabel.m; path = ../../src/VJPaddedLabel.m; sourceTree = "<group>"; };
+		158AC590153C5C6D00964D4C /* COPYRIGHT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = COPYRIGHT; path = ../../COPYRIGHT; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		157D9C1A153B666E0083433D = {
 			isa = PBXGroup;
 			children = (
+				158AC590153C5C6D00964D4C /* COPYRIGHT */,
 				157D9C46153BEE9C0083433D /* VJPaddedLabel.h */,
 				157D9C47153BEE9C0083433D /* VJPaddedLabel.m */,
 				157D9C2F153B666E0083433D /* labelsSample */,
@@ -156,6 +159,7 @@
 			files = (
 				157D9C34153B666E0083433D /* InfoPlist.strings in Resources */,
 				157D9C40153B666E0083433D /* MainViewController.xib in Resources */,
+				158AC591153C5C6D00964D4C /* COPYRIGHT in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +283,7 @@
 				157D9C45153B666E0083433D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
